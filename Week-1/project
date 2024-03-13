@@ -1,0 +1,32 @@
+# Simple Interest
+print("Calculation for simple interest")
+p = int(input("Enter the principal? \n"))
+r = int(input("Enter the rate \n"))
+t = int(input("Enter the t \n"))
+A = p * (1 + (r/100 * t))
+print("The amount for the simple interest is ",A)
+
+# Compound Interest
+print("Calculation for compound interest")
+p1 = int(input("Enter the principal? \n"))
+r1 = int(input("Enter the rate \n"))
+n1 = int(input("Enter the number of times in a year \n"))
+t = int("Enter the time \n")
+po1 = n1 * t
+print("")
+A1= p * pow((1 + (r1/n)), po1)
+print("The amount for the compound interest is", A1)
+
+# Annuity Plan
+print("Calculation for Annuity Plan")
+pmt = int(input("Enter the periodic payment \n"))
+r2 = int(input("Enter the rate \n"))
+n2 = int(input("Enter the  number of times in a year \n"))
+t = int(input("Enter the time \n"))
+j = 1 + r2/n2
+d = r2 / n2
+x = n2 * r2
+A2 = pmt * (pow(j, x) - 1) / d
+print("The annuity plan is", A)
+
+
