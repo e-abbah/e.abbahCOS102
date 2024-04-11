@@ -5,15 +5,18 @@ from tkinter import messagebox
 def welcomeMessage(username, others):
     # Create a Tkinter window
     window = tk.Toplevel(root)
-    window.title("Admin Box")
-    window.geometry("500x500")
+    window.title("Employees")
+    window.geometry("250x250")
 
     label_1 = tk.Label(window, text=f"GIG Logistics")
     label_1.pack()
     label_2 = tk.Label(window, text=f"Welcome {username} to the biometric software")
     label_2.pack()
-    label_3 = tk.Label(window, text=f"Other People in this department are {others}")
-    label_3.pack()
+    label3 = tk.Label(window, text=f"Other People in the department are: \n")
+    label3.pack()
+    for i in others:
+        label_3 = tk.Label(window, text=f"{i}")
+        label_3.pack()
 
     # Run the Tkinter event loop
     root.mainloop()
@@ -51,7 +54,7 @@ def submit():
 # Create a main windowss
 root = tk.Tk()
 root.title("GIG Logistics")
-root.geometry("500x500")
+root.geometry("200x200")
 
 # Create  a username label and entry
 username_label = tk.Label(root, text="Username:")
