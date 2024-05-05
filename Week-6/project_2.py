@@ -140,7 +140,7 @@ def mass_com():
     instruct = Label(window, text= "Enter the grades obtained for the following courses:")
     instruct.pack()
 
-    subjects = ["English", "Mathematics", "Physics", "Chemistry", "Biology"]
+    subjects = ["English", "Mathematics", "Economics", "Governement", "Lit in English"]
     
     credit = []
     grades = []

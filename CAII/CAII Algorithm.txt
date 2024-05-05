@@ -1,0 +1,15 @@
+* BEGINS Execution
+* IMPORT the tkinter module
+* CREATE gui Window for the menu
+* DISPLAY the menu to the user
+* CREATE a window to get the entry of the user
+* Get INPUT of qunatity of food
+* CALCULATE the cost of the food
+* IF quantity is a string displays an error
+* APPLY no Discount if cost is less than 1000
+* APPLY Discount of 10% if cost is greater than 1000 and less than 2500
+* APPLY Discount of 15% if cost is greater than 2500 and less than 5000
+* APPLY Discount of 25% if cost is greater than 5000
+* CREATE another window
+* DISPLAY the cost of the transaction
+* program ENDS
