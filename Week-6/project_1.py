@@ -14,7 +14,7 @@ def welcomeMessage(cost, location):
     label_2 = Label(window, text=f"The cost of delivery to {location} is N{cost}")
     label_2.pack()
 
-    # Run the Tkinter event loop
+    # Run the Tkinter event loop1
     root.mainloop()
 
 def submit():
